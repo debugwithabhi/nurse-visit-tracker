@@ -76,7 +76,7 @@ section[data-testid="stSidebar"] * {
 ========================= */
 .stButton>button {
     background-color: #00F5E9;
-    color: #0f172a;   /* Dark Navy */
+    color: #0F172A;
     border-radius: 8px;
     height: 42px;
     font-weight: 600;
@@ -87,7 +87,7 @@ section[data-testid="stSidebar"] * {
 
 .stButton>button:hover {
     background-color: #00d9cf;
-    color: #0f172a;   /* Keep same dark text */
+    color:#0F172A;
     box-shadow: 0px 4px 12px rgba(0, 245, 233, 0.5);
     transform: translateY(-1px);
 }
@@ -468,3 +468,4 @@ st.markdown(
     unsafe_allow_html=True
 
 )
+
