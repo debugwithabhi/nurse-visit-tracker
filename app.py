@@ -223,7 +223,7 @@ nurse_list = [n[0] for n in nurses]
 # =============================
 if page == "Dashboard":
 
-    st.markdown('<div class="page-title">🏥 Nurse Tracker</div>', unsafe_allow_html=True)
+    st.markdown('<div class="page-title">🏥 Nurse Visit Tracker</div>', unsafe_allow_html=True)
 
     st.markdown("### 👩‍⚕️ Nurse Management")
     new_nurse = st.text_input("Nurse Name")
@@ -467,4 +467,5 @@ st.markdown(
     '<div class="footer">Developed by <b>Abhishek Lalzare</b> © 2026</div>',
     unsafe_allow_html=True
 )
+
 
