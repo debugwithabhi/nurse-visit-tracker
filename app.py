@@ -96,31 +96,39 @@ section[data-testid="stSidebar"] * {
    INPUT FIELD COMPLETE FIX
 ========================= */
 
-/* All input boxes */
 input, textarea {
-    color: #1e293b !important;
-    background-color: #ffffff !important;
+    background-color: #0f172a !important;   /* Dark navy */
+    color: #ffffff !important;              /* White typing text */
+    border: 1px solid #334155 !important;
 }
 
-/* Selectbox inner text */
+/* Selectbox */
 .stSelectbox div[data-baseweb="select"] {
-    color: #1e293b !important;
-    background-color: #ffffff !important;
+    background-color: #0f172a !important;
+    color: #ffffff !important;
 }
 
-/* Date, Time, Number input text */
+/* Date, Time, Number inputs */
 .stDateInput input,
 .stTimeInput input,
 .stNumberInput input {
-    color: #1e293b !important;
-    background-color: #ffffff !important;
+    background-color: #0f172a !important;
+    color: #ffffff !important;
 }
 
-/* Placeholder */
+/* Placeholder text */
 input::placeholder {
-    color: #64748b !important;
+    color: #94a3b8 !important;
 }
-/* =========================
+
+/* Rounded corners */
+input,
+.stSelectbox,
+.stDateInput,
+.stTimeInput,
+.stNumberInput {
+    border-radius: 8px !important;
+}/* =========================
    TABLE STYLING
 ========================= */
 
