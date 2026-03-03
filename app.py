@@ -466,6 +466,4 @@ elif page == "Earnings":
 st.markdown(
     '<div class="footer">Developed by <b>Abhishek Lalzare</b> © 2026</div>',
     unsafe_allow_html=True
-
 )
-
