@@ -93,33 +93,33 @@ section[data-testid="stSidebar"] * {
 }
 
 /* =========================
-   INPUT FIELDS
+   INPUT FIELD COMPLETE FIX
 ========================= */
 
-/* Rounded Corners */
-input, 
-.stSelectbox, 
-.stDateInput, 
-.stTimeInput,
-.stNumberInput {
-    border-radius: 8px !important;
+/* All input boxes */
+input, textarea {
+    color: #1e293b !important;
+    background-color: #ffffff !important;
 }
 
-/* Input Text Color */
-input {
-    color: #1e293b !important;   /* Dark Slate */
-}
-
-/* Selectbox Selected Text */
+/* Selectbox inner text */
 .stSelectbox div[data-baseweb="select"] {
     color: #1e293b !important;
+    background-color: #ffffff !important;
 }
 
-/* Placeholder Text */
+/* Date, Time, Number input text */
+.stDateInput input,
+.stTimeInput input,
+.stNumberInput input {
+    color: #1e293b !important;
+    background-color: #ffffff !important;
+}
+
+/* Placeholder */
 input::placeholder {
     color: #64748b !important;
 }
-
 /* =========================
    TABLE STYLING
 ========================= */
@@ -467,5 +467,3 @@ st.markdown(
     '<div class="footer">Developed by <b>Abhishek Lalzare</b> © 2026</div>',
     unsafe_allow_html=True
 )
-
-
